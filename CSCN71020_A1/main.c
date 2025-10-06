@@ -15,7 +15,7 @@ void main() {
 	int inputNum;
 
 	printf("Enter operation number: ");
-	scanf_s("%d", &inputNum);
+	scanf_s("%d", &inputNum); // I fixed this earlier in my first commit by changing it to scanf_s("%d", &inputNum);, which correctly reads integer input. That resolved the issue.
 
 	switch (inputNum)
 	{
